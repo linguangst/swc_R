@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "x<-1\ny<-x*2\nz<-y^2\ny\nx+y+z\n\nx<- 1:10\nx\n\nls()\nrm(z)\nz\n\nvar.Name<- 1\nvar_Name<- 2\nvarName<- 3   #this doesn't execute (comments out)\n\ninstall.packages(\"gapminder\")\n\n########\n> typeof(x)\n[1] \"integer\"\n> z >- 5.5\nError: object 'z' not found\n> z <- 5.5\n> typeof(z)\n[1] \"double\"\n> is.logical(z)\n[1] FALSE\n> x<-\"string of text\"\n> is.character(x)\n[1] TRUE\n> typeof(x)\n[1] \"character\"\n> y\n[1] 2\n> x\n[1] \"string of text\"\n> y <-x+1\nError in x + 1 : non-numeric argument to binary operator\n> x<-1\n> y<-x*2\n> x<-5\n> y\n[1] 2\n> 'answer'<-TRUE\n> 'height'<-5.5\n> 'dog_name'<-\"lola\"\n> \n> typeof('answer')\n[1] \"character\"\n> typeof('height')\n[1] \"character\"\n> typeof('dog_name')\n[1] \"character\"\n> \n> height<- 5.5\n> \n> height\n[1] 5.5\n> typeof(height)\n[1] \"double\"\n> height<-5\n> typeof(height)\n[1] \"double\"\n> height<- 10\n> typeof(height)\n[1] \"double\"\n> \n> answer<- TRUE\n> answer\n[1] TRUE\n> typeof(answer)\n[1] \"logical\"\n> \n> dog_name<- 'lola'\n> \n> typeof(dog_name)\n[1] \"character\"\n> \n> height<- 6\n> typeof(height)\n[1] \"double\"\n> is.numeric(height)\n[1] TRUE\n> height<- 6L\n> typeof(height)\n[1] \"integer\"\n> \n> \n> numchar,- (\"1\")\nError: unexpected ',' in \"numchar,\"\n> numchar<- (\"1\")\n> numchar\n[1] \"1\"\n> typeof(numchar)\n[1] \"character\"\n> is.numberic(numchar)\nError: could not find function \"is.numberic\"\n>is.numeric(numchar)\n[1] FALSE\n> x<- vector()\n> x<- vector(length=10)\n> x\n [1] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE\n> x<-vector(\"character\", length=10)\n> x\n [1] \"\" \"\" \"\" \"\" \"\" \"\" \"\" \"\" \"\" \"\"\n######\n",
+    "created" : 1451934522393.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "746523736",
+    "id" : "8517ADD2",
+    "lastKnownWriteTime" : 1451949398,
+    "last_content_update" : 1451949398028,
+    "path" : "~/Desktop/swc/swc_R/variables.R",
+    "project_path" : "variables.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
